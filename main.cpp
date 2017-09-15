@@ -12,10 +12,6 @@
 int main()
 {
     // Print a message at startup.
-    std::cout << std::endl << "Vending machine starting up ..." << std::endl;
-    std::cout << "* * *" << std::endl;
-
-
 
     // Create vendingMachine object. Constructor will be called with no parameters.
     VendingMachine vendingMachine;
