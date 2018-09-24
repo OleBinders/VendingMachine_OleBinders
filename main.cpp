@@ -7,19 +7,13 @@
 
 // This is a C++ style comment. Compiler will ignore all comments.
 
-class Forfatter {
-public:
-private:
-    std::string str = "Ole A. Hetland";
-};
-
 // The C++ program starts execution here.
 int main()
 {
     // Print a message at startup.
 
     // Create vendingMachine object. Constructor will be called with no parameters.
-    VendingMachine vendingMachine;
+    VendingMachine vendingMachine ("Ole Hetland");
     // Print inventory using public printInventory member function (method).
     vendingMachine.printInventory();
 

@@ -15,7 +15,7 @@ class VendingMachine
 public:
 
     // Constructor.
-    VendingMachine();
+    VendingMachine(std::string navn);
 
     // Destructor.
     ~VendingMachine();
@@ -34,6 +34,7 @@ private:
     // good idea due to reserved names starting with __ and because auto completion of names
     // will work more smoothly.
     std::vector<Soda> sodaTypes_;
+    std::string forfatter_;
 
 };
 

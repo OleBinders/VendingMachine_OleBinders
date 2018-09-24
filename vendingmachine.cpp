@@ -3,10 +3,12 @@
 
 
 // Definition of VendingMachine constructor.
-VendingMachine::VendingMachine()
+VendingMachine::VendingMachine(std::string navn)
     : sodaTypes_()  // Initialization of sodaTypes_ vector. Explicit call to the constructor.
+    , forfatter_(navn)
 {
-    std::cout << "Vending machine object constructed!" << std::endl;
+    std::cout << "   *** Creator " << forfatter_ << " ***   " << std::endl;
+    std::cout << "\nVending machine object constructed!" << std::endl;
 }
 
 
