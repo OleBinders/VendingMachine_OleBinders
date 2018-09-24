@@ -7,6 +7,11 @@
 
 // This is a C++ style comment. Compiler will ignore all comments.
 
+class Forfatter {
+public:
+private:
+    std::string str = "Ole A. Hetland";
+};
 
 // The C++ program starts execution here.
 int main()
@@ -20,10 +25,10 @@ int main()
 
 
     // Create a cola object. Constructor will be called with given parameters.
-    Soda cola("Colabrus", 34, 4);
+    Soda cola("Colabrus", 34, 4); // We have a variable named cola with Soda as its data type.
     Soda fanta("Fantabrus", 25 , 5);
     Soda redbull("Red Bull", 50, 5);
-    // We have a variable named cola with Soda as its data type.
+
 
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
